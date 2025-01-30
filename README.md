@@ -1,14 +1,17 @@
 
-Voici un exemple de README pour expliquer l'algorithme de Dijkstra :
+
 
 Algorithme de Dijkstra
+
 L'algorithme de Dijkstra est un algorithme utilisé pour résoudre le problème du plus court chemin dans un graphe pondéré, avec des poids d'arêtes positifs. Il permet de trouver le chemin le plus court entre un nœud source et tous les autres nœuds dans un graphe. Cet algorithme est largement utilisé dans les réseaux de communication, les systèmes de navigation, et bien d'autres domaines.
 
 Principe de l'algorithme
+
 Initialisation :
 
 On commence par attribuer à chaque nœud du graphe une distance infinie, sauf pour le nœud de départ qui reçoit une distance de 0.
 On marque tous les nœuds comme non visités.
+
 Processus :
 
 On sélectionne le nœud non visité ayant la distance minimale.
@@ -17,7 +20,8 @@ Une fois qu'un nœud est visité, on le marque comme visité, et on ne le réexa
 Ce processus est répété jusqu'à ce que tous les nœuds aient été visités ou que le nœud cible soit atteint.
 Fin de vie :
 
-L'algorithme s'arrête lorsque tous les nœuds ont été visités ou que la distance minimale pour tous les nœuds est infinie (ce qui signifie qu'il n'y a pas de chemin disponible).
+L'algorithme
+s'arrête lorsque tous les nœuds ont été visités ou que la distance minimale pour tous les nœuds est infinie (ce qui signifie qu'il n'y a pas de chemin disponible).
 Complexité
 La complexité de l'algorithme de Dijkstra dépend de la structure de données utilisée pour représenter le graphe et gérer les nœuds :
 
